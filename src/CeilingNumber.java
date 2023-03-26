@@ -7,6 +7,9 @@ public class CeilingNumber {
     static int ceilingNumber(int [] arr,int target){
         int start=0;
         int end=arr.length -1;
+        if(target >= arr[arr.length-1]){
+            return target;
+        }
 
         while(start <= end){
             int mid= start + (end-start)/2;
