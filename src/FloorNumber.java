@@ -1,7 +1,7 @@
 public class FloorNumber {
 
     public static void main(String[] args) {
-        int [] arr={9,10,11,14,18,20,33};
+        int [] arr={9,10,11,14,18,20};
         System.out.println(ceilingNumber(arr,17));
     }
 
